@@ -1,14 +1,8 @@
-import random
-min = 1
-max = 6
+from random import randint
+ques = input('Do you want to dice Y/N : ')
 
-roll_again = "yes"
- roll_again = raw_input
-
-while roll_again == "yes" or roll_again == "y":
-    print ("Rolling the dices...")
-    print ("The values are....")
-    print (random.randint(min, max))
-    print (random.randint(min, max))
-
-    roll_again = raw_input("Roll the dices again?")
+while ques.upper() == 'Y':
+    print(f'your number is {randint(1,6)}')
+    ques = input('Do you want to roll again !!')
+else:
+    print('Thank you For Playing')
