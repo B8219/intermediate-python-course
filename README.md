@@ -1,4 +1,4 @@
-# Intermediate Python Course
+# Python Course
 
 Hey there, 
 
